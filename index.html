@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-1</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+
+    <link href="/src/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  </head>
+    <body class="bg-gray-50">
+      <!-- Navbar -->
+      <header class="w-full mt-8 shadow">
+        <nav class="relative flex items-center justify-between px-6 py-4 max-w-6xl mx-auto z-50">
+          <div>
+            <img class="h-auto w-[100px] md:w-[240px]" src="./image/Logo (1).png" alt="logo">
+          </div>
+
+        <!-- Menu (Desktop) -->
+          <div>
+            <ul class="hidden lg:flex lg:space-x-6 font-medium">
+              <li><a href="#" class=" text-base lg:text-lg text-black hover:text-gray-500 abel-regular">Home</a></li>
+              <li><a href="#" class=" text-base lg:text-lg text-black hover:text-gray-500 abel-regular">About Us</a></li>
+              <li><a href="#" class=" text-base lg:text-lg text-black hover:text-gray-500 abel-regular">Our App</a></li>
+              <li><a href="#" class=" text-base lg:text-lg text-black hover:text-gray-500 abel-regular">Contacts</a></li>
+            </ul> 
+          </div>
+
+        <!-- Button -->
+          <div class=" hidden md:flex space-x-2 lg:space-x-6 font-medium">
+            <button><a href="#" class="text-base md:text-lg text-black hover:text-gray-500 poppins">Log in</a></button>
+            <button><a href="#" class="text-base md:text-lg bg-[#FF6600] hover:bg-orange-600 px-6 py-2 text-white rounded-[10px] poppins">Sign up</a></button>
+          </div>
+        <!-- Hamburger (Mobile) -->
+          <div class="md:hidden">
+            <button class="text-2xl">☰</button>
+          </div>
+        </nav>
+      </header>
+  
+      <!-- Hero Section -->
+      <section class="max-w-6xl mx-auto py-4 px-6 md:py-12 grid grid-cols-1 md:grid-cols-2 -space-x-10 items-center">
+        <div class="md:z-20 mx-auto">
+          <h1 class="text-4xl md:text-7xl font-black text-[#0B1B35] leading-[81px] mb-4 poppins">
+            We boost growth for your statup business
+          </h1>
+          <p class="text-lg md:text-2xl font-medium pr-6 mb-6 poppins">Our goal is top at the heart of creativity services industry as a digital creator. In has a after comment</p>
+          <div class="flex gap-4">
+            <button><a href="#" class="text-base font-medium bg-[#FF6600] hover:bg-orange-600 px-6 py-2 text-white rounded-[10px] leading-7 poppins">Get Started</a></button>
+            <img src="./image/learn-more.png" alt="larn more">
+          </div>
+        </div>
+        <div>
+          <img src="./image/hero.png" alt="hero image" 
+          class="w-full h-auto pt-4 md:pt-20 md:scale-150 mx-auto">
+        </div>
+      </section>
+      <!-- Service section -->
+      <section class="py-4 md:py-8 max-w-6xl mx-auto px-6">
+        <p class="uppercase text-center text-[#8A898E] tracking-[5px] text-sm mb-2 leading-7 abel-regular">Service</p>
+        <h2 class="text-center text-3xl md:text-[52px] font-normal leading-7 abel-regular">Our Vison & Our Goal</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-8 md:py-16">
+          <div class="p-6 bg-white rounded-xl shadow text-center pb-12 grid gap-y-8">
+            <i class="fa-brands fa-facebook-messenger text-6xl"></i>
+            <h2 class="text-4xl font-normal leading-7 abel-regular">Graphic Design</h2>
+            <p class="text-md md:text-lg font-normal leading-7 poppins">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus blanditiis nisi tenetur! Incidunt deleniti, nobis sed dignissimos ratione expedita voluptates!</p>
+            <button><a href="#" class="text-lg bg-[#FF6600] hover:bg-orange-600 px-8 py-2 text-white rounded-[10px] font-medium leading-7">Learn</a></button>
+          </div>
+
+          <div class="p-6 bg-white rounded-xl shadow text-center pb-12 grid gap-y-8">
+            <i class="fa-solid fa-video text-6xl"></i>
+            <h2 class="text-4xl font-normal leading-7 abel-regular">Video Editing</h2>
+            <p class="text-md md:text-lg font-normal leading-7 poppins">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus blanditiis nisi tenetur! Incidunt deleniti, nobis sed dignissimos ratione expedita voluptates!</p>
+            <button><a href="#" class="text-lg bg-[#FF6600] hover:bg-orange-600 px-8 py-2 text-white rounded-[10px] font-medium leading-7">Learn</a></button>
+          </div>
+
+          <div class="p-6 bg-white rounded-xl shadow text-center pb-12 grid gap-y-8">
+            <!-- <i class="fa-solid fa-chart-simple text-6xl"></i> -->
+            <div class="flex justify-center">
+              <img src="./image/chart.svg" alt="chart" class="bg-black w-14 h-14 rounded-xl p-2">
+            </div>
+            <h2 class="text-4xl font-normal leading-7 abel-regular">Digital Marketing</h2>
+            <p class="text-md md:text-lg font-normal leading-7 poppins">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus blanditiis nisi tenetur! Incidunt deleniti, nobis sed dignissimos ratione expedita voluptates!</p>
+            <button><a href="#" class="text-lg bg-[#FF6600] hover:bg-orange-600 px-8 py-2 text-white rounded-[10px] font-medium leading-7">Learn</a></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Many Blocks and Components -->
+      <section class="py-4 md:py-8 max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-20">
+        <div class="grid gap-y-8">
+          <div>
+            <h2 class="text-2xl text-[#1E0E62] font-medium mb-4 md:mb-8 leading-8">Many Blocks and Components</h2>
+            <p class="text-sm md:text-base text-gray-400">Startup Framework contains components and complex blocks which can easily be integrated into almost any design.</p>
+          </div>
+          <div>
+            <button class="py-2 px-8 text-base font-medium text-[#1E0E62] border-2 border-gray-300 rounded-4xl leading-5">Explore</button>
+          </div>
+        </div>
+        <div class="relative flex justify-center items-center col-span-2">
+          <img src="./image/mask.png" alt="mask" class=" rounded-l shadow">
+          <p class="absolute w-20 h-20 rounded-full bg-[#482BE7]"></p>
+        </div>
+      </section>
+
+      <!-- Testmonials section -->
+      <section class="py-2 md:py-4 max-w-6xl mx-auto px-6 mt-8">
+        <p class="uppercase text-center text-[#8A898E] tracking-[5px] text-sm mb-2 leading-7 abel-regular">Testmonials</p>
+        <h2 class="text-center text-3xl md:text-[52px] text-[#0B1B35] font-normal leading-7 abel-regular">What Clients say about us</h2>
+
+        <div class="py-4 md:py-12 grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-8 md:gap-20 mt-2 items-stretch">
+          <div class="lg:flex gap-6 h-full">
+            <img src="./image/testmonials/Mask (1).png" alt="mask1" class="w-18 h-18 mb-4">
+            <div class="flex flex-col justify-between">
+              <p class="text-lg text-[#0B1B35] font-medium leading-7">
+                Get a fully retina ready site when you build with Startup Framework . Website look sharper and more gorgeous on devices with retina display suppor
+              </p>
+              <p class="uppercase text-gray-400 tracking-[2px] leading-7 text-sm font-bold my-4">Rayhan Curran</p>
+            </div>
+          </div>
+          <div class="lg:flex gap-6 h-full">
+            <img src="./image/testmonials/Mask (2).png" alt="mask2" class="w-18 h-18 mb-4">
+            <div class="flex flex-col justify-between">
+              <p class="text-lg text-[#0B1B35] font-medium leading-7">
+                As a business targeting high net worth individuals, we were looking for a slick, cool and mini-malistic design for our website
+              </p>
+              <p class="uppercase text-gray-400 tracking-[2px] leading-7 text-sm font-bold my-4">Kayley Frame</p>
+            </div>
+          </div>
+          <div class="lg:flex gap-6 h-full">
+            <img src="./image/testmonials/Mask (3).png" alt="mask3" class="w-18 h-18 mb-4">
+            <div class="flex flex-col justify-between">
+              <p class="text-lg text-[#0B1B35] font-medium leading-7">
+                The most important part of the Startup Framework is the samples
+              </p>
+              <p class="uppercase text-gray-400 tracking-[2px] leading-7 text-sm font-bold my-4">Gene Whitfield</p>
+            </div>
+          </div>
+          <div class="lg:flex gap-6 h-full">
+            <img src="./image/testmonials/Mask (4).png" alt="mask4" class="w-18 h-18 mb-4">
+            <div class="flex flex-col justify-between">
+              <p class="text-lg text-[#0B1B35] font-medium leading-7">
+                I've built my website with Startup just in one day, and it was ready-to-go.
+              </p>
+              <p class="uppercase text-gray-400 tracking-[2px] leading-7 text-sm font-bold my-4">Allan Kim</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Meet the Team section -->
+      <section class="py-2 md:py-4 max-w-6xl mx-auto px-6">
+        <p class="uppercase text-center text-[#8A898E] tracking-[5px] text-sm mb-2 leading-7 abel-regular">Our team</p>
+        <h2 class="text-center text-[#0B1B35] text-3xl md:text-[52px] font-normal leading-7 abel-regular">Meet The Team</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-8 md:py-16">
+          <div class="rounded-xl border-3 border-[#EBEAED]">
+            <div class="flex flex-col items-center gap-4 py-4">
+              <img src="./image/testmonials/team1.png" alt="team member" class="w-30 h-30 ">
+              <h2 class="text-[#1E0E62] text-xl leading-8 font-medium">Vanessa Laird</h2>
+              <p class="uppercase text-gray-500 tracking-[2px] text-sm">Ui designer</p>
+            </div>
+            <div class="grid grid-cols-3 mt-6 border-t-2 border-[#EBEAED] h-14 divide-x-3 divide-solid divide-[#EBEAED]">
+              <div class="flex justify-center items-center hover:text-orange-400">
+                <i class="fa-brands fa-dribbble text-2xl"></i>
+              </div>
+              <div class="flex justify-center items-center hover:text-orange-400">
+                <i class="fa-brands fa-square-facebook text-2xl"></i>
+              </div>
+              <div class="flex justify-center items-center hover:text-orange-400">
+                <i class="fa-brands fa-twitter text-2xl"></i>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-xl border-3 border-[#EBEAED]">
+            <div class="flex flex-col items-center gap-4 py-4">
+              <img src="./image/testmonials/team2.png" alt="team member" class="w-30 h-30 ">
+              <h2 class="text-[#1E0E62] text-xl leading-8 font-medium">Mason Campbell</h2>
+              <p class="uppercase text-gray-500 tracking-[2px] text-sm">Ui designer</p>
+            </div>
+            <div class="grid grid-cols-3 mt-6 border-t-2 border-[#EBEAED] h-14 divide-x-3 divide-solid divide-[#EBEAED]">
+              <div class="flex justify-center items-center hover:text-orange-400">
+                <i class="fa-brands fa-dribbble text-2xl"></i>
+              </div>
+              <div class="flex justify-center items-center hover:text-orange-400">
+                <i class="fa-brands fa-square-facebook text-2xl"></i>
+              </div>
+              <div class="flex justify-center items-center hover:text-orange-400">
+                <i class="fa-brands fa-twitter text-2xl"></i>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-xl border-3 border-[#EBEAED]">
+            <div class="flex flex-col items-center gap-4 py-4">
+              <img src="./image/testmonials/team3.png" alt="team member" class="w-30 h-30 ">
+              <h2 class="text-[#1E0E62] text-xl leading-8 font-medium">Irea Evans</h2>
+              <p class="uppercase text-gray-500 tracking-[2px] text-sm">Client Manager</p>
+            </div>
+            <div class="grid grid-cols-3 mt-6 border-t-2 border-[#EBEAED] h-14 divide-x-3 divide-solid divide-[#EBEAED]">
+              <div class="flex justify-center items-center hover:text-orange-400">
+                <i class="fa-brands fa-dribbble text-2xl"></i>
+              </div>
+              <div class="flex justify-center items-center hover:text-orange-400">
+                <i class="fa-brands fa-square-facebook text-2xl"></i>
+              </div>
+              <div class="flex justify-center items-center hover:text-orange-400">
+                <i class="fa-brands fa-twitter text-2xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Subscribe our Newsletter -->
+      <section class="py-4 md:py-8 max-w-6xl mx-auto px-6 mt-8">
+        <p class="uppercase text-center text-[#8A898E] tracking-[5px] text-sm mb-2 leading-7 abel-regular">Our team</p>
+        <h2 class="text-center text-3xl md:text-[52px] font-normal leading-7 abel-regular">Subscribe Our Newsletter</h2>
+
+        <div class="mx-auto max-w-6xl flex flex-col gap-12 md:flex-row px-6 py-10 mt-4 md:mt-20">
+          <div class="md:w-[50%] lg:w-[30%]">
+            <img src="./image/Frame.png" alt="group" class="w-[300px] md:w-full mx-auto lg:scale-125">
+          </div>
+          <div class="space-y-14 w-full md:w-[50%] lg:w-[70%] flex flex-col">
+            <p class=" text-base sm:text-lg text-black leading-7 poppins">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa repudiandae eveniet hic. Ullam ratione facilis quibusdam officia omnis, autem commodi!
+            </p>
+            <form class="space-y-12">
+              <input type="email" placeholder="Your E-mail here..." class="placeholder-black text-black text-lg md:text-2xl w-full leading-7 border border-gray-200 
+              rounded-full px-14 py-6 shadow-lg outline-none focus:ring-2 focus:ring-orange-400">
+              <button type="submit" class="text-base md:text-lg py-3 text-center font-medium leading-7 w-full rounded-xl
+              text-white bg-orange-500 hover:bg-orange-600 transition poppins">Subscribe Our Newsleter</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Footer section -->
+      
+      <div class="flex flex-col lg:flex-row justify-between items-center gap-4 py-4 md:py-8 mt-8 max-w-6xl mx-auto border-b-2 border-[#EBEAED]">
+      <div class="flex gap-4 lg:gap-16">
+        <img src="./image/Logo (1).png" alt="logo"
+        class="w-[80px] md:w-[111px]">
+        <p class="text-[#1E0E62] leading-6">© 2020 Epixelab. All rights reserved.</p>
+      </div>
+      <div>
+        <ul class="flex gap-3 lg:gap-8">
+            <li><a href="#" class="text-[#1E0E62] leading-6">Portfolio</a></li>
+            <li><a href="#" class="text-[#1E0E62] leading-6">How it Works</a></li>
+            <li><a href="#" class="text-[#1E0E62] leading-6">Princing</a></li>
+            <li><a href="#" class="text-[#1E0E62] leading-6">About</a></li>
+            <li><a href="#" class="text-[#1E0E62] leading-6">Login</a></li>
+          </ul> 
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto">
+      <p class="text-sm text-center lg:text-left md:text-base text-[#151439] opacity-40 my-4 py-6 px-6 lg:px-0">
+        Startup Framework contains components and complex blocks which can easily be integrated into almost any design.
+      </p>
+    </div>
+    
+  </body>
+</html>
